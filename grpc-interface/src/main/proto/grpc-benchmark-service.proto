@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.vibrenthealth.benchmark.grpc.service;
+
+option java_multiple_files = true;
+option java_package = "com.vibrenthealth.benchmark.grpc.service.lib";
+option java_outer_classname = "GrpcBenchmarkProto";
+
+// The greeting service definition.
+service GrpcBenchmarkService {
+  // Sends a greeting
+  rpc DoSomething (DoSomethingRequest) returns (DoSomethingReply) {
+  }
+}
+
+message DoSomethingRequest {
+  string testId = 1;
+  int32 iterationId = 2;
+  int64 milliseconds = 3;
+}
+
+// The response message containing the greetings
+message DoSomethingReply {
+  string testId = 1;
+  int32 iterationId = 2;
+  int64 requestReceived = 3;
+  int64 responseSent = 4;
+  int64 localDuration = 5;
+  bool allWas200 = 6;
+}

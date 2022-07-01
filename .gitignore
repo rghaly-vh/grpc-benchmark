@@ -1,0 +1,6 @@
+# Project exclude paths
+/benchmark-client/target/
+/grpc-interface/target/
+/grpc-service/target/
+/rest-service/target/
+/rest-service-spi/target/

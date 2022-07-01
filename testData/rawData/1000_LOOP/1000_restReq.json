@@ -1,0 +1,11 @@
+{
+  "serviceType": "REST",
+  "testId": "1000_LOOP",
+  "loopCount": 1000,
+  "repeats": 30,
+  "sleepMills": 10,
+  "primer": {
+    "sleepMills": 10,
+    "iterations": 20
+  }
+}

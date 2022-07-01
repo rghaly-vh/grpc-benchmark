@@ -1,0 +1,11 @@
+{
+  "serviceType": "SPRING",
+  "testId": "SINGLE_CALL",
+  "loopCount": 1,
+  "repeats": 500,
+  "sleepMills": 100,
+  "primer": {
+    "sleepMills": 10,
+    "iterations": 20
+  }
+}
