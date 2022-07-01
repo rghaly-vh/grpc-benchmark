@@ -11,7 +11,7 @@ install grpcurl (https://formulae.brew.sh/formula/grpcui)
 ## Command:
 grpcurl --plaintext -d '{"milliseconds": 1000}' localhost:9090 com.vibrenthealth.benchmark.grpc.service.GrpcBenchmarkService/DoSomething
 
-[# To test REST directly]()
+#To test REST directly]
 install Postman (https://formulae.brew.sh/cask/postman)
 
 ## Config:
